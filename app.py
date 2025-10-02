@@ -1,3 +1,6 @@
+import sys
+import streamlit as st
+st.sidebar.info(f"Python version: {sys.version}")
 import io, zipfile, json
 import pandas as pd
 import streamlit as st
